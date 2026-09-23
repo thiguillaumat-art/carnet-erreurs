@@ -1,0 +1,13 @@
+{
+  "name": "carnet-erreurs",
+  "displayName": "Carnet d'erreurs",
+  "version": "0.1.0",
+  "description": "Skills built from real, measured mistakes made while building with an AI. Each one exists because something shipped broken and was counted.",
+  "author": {
+    "name": "Thibault Guillaumat",
+    "url": "https://github.com/thiguillaumat-art"
+  },
+  "repository": "https://github.com/thiguillaumat-art/carnet-erreurs",
+  "license": "MIT",
+  "keywords": ["accessibility", "wcag", "contrast", "rendering", "writing", "review"]
+}

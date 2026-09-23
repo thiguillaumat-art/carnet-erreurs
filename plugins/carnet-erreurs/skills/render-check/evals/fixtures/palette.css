@@ -1,0 +1,17 @@
+/* Palette du site — refonte septembre */
+:root {
+  --encre:   #15181A;   /* fond des blocs sombres */
+  --accent:  #33403F;
+  --second:  #5d6061;
+  --filet:   #DCE0E0;
+  --carte:   #FFFFFF;
+}
+
+/* Bloc sombre : titre + texte secondaire + lien */
+.bloc-sombre            { background: var(--encre); padding: 26px; }
+.bloc-sombre h2         { color: #FFFFFF; }
+.bloc-sombre p          { color: var(--second); }   /* texte secondaire */
+.bloc-sombre a          { color: var(--accent); }   /* lien */
+
+/* Champ de formulaire */
+.champ { background: #fff; border: 1px solid var(--filet); padding: 13px 15px; }

@@ -1,0 +1,98 @@
+{
+ "note": "Measurements only. ⛔ No author, company, product or brand is named: the original posts were written by real, identifiable people and are NOT redistributed. Topics are described generically. ⚠️ Fixed 22/09/2026 — the first version leaked company names in the `theme` field, next to an `s` label meaning 'suspected of being AI-written'. Re-run the measurement on your own feed to verify.",
+ "releve_le": "2026-09-17",
+ "methode": "scripts/markers.py, LinkedIn feed, 7 posts",
+ "echantillon": [
+  {
+   "etiquette": "h",
+   "theme": "competitive-exam prep",
+   "mots": 386,
+   "phrases": 21,
+   "irregularite": 0.84,
+   "paras_1_phrase_pct": 76,
+   "details_100m": 10.1,
+   "antitheses": 0,
+   "tricolons": 1,
+   "chute_aphorisme": false,
+   "registre_familier": 3
+  },
+  {
+   "etiquette": "h",
+   "theme": "company retrospective",
+   "mots": 111,
+   "phrases": 6,
+   "irregularite": 0.5,
+   "paras_1_phrase_pct": 80,
+   "details_100m": 3.6,
+   "antitheses": 0,
+   "tricolons": 0,
+   "chute_aphorisme": false,
+   "registre_familier": 0
+  },
+  {
+   "etiquette": "h",
+   "theme": "end-of-internship",
+   "mots": 261,
+   "phrases": 12,
+   "irregularite": 0.57,
+   "paras_1_phrase_pct": 80,
+   "details_100m": 5.7,
+   "antitheses": 0,
+   "tricolons": 0,
+   "chute_aphorisme": false,
+   "registre_familier": 0
+  },
+  {
+   "etiquette": "s",
+   "theme": "brand history",
+   "mots": 78,
+   "phrases": 10,
+   "irregularite": 0.48,
+   "paras_1_phrase_pct": 100,
+   "details_100m": 3.8,
+   "antitheses": 0,
+   "tricolons": 1,
+   "chute_aphorisme": true,
+   "registre_familier": 0
+  },
+  {
+   "etiquette": "s",
+   "theme": "outbound tool B",
+   "mots": 244,
+   "phrases": 20,
+   "irregularite": 1.15,
+   "paras_1_phrase_pct": 70,
+   "details_100m": 5.3,
+   "antitheses": 0,
+   "tricolons": 3,
+   "chute_aphorisme": false,
+   "registre_familier": 0
+  },
+  {
+   "etiquette": "s",
+   "theme": "outbound tool A",
+   "mots": 121,
+   "phrases": 15,
+   "irregularite": 0.74,
+   "paras_1_phrase_pct": 93,
+   "details_100m": 9.1,
+   "antitheses": 1,
+   "tricolons": 1,
+   "chute_aphorisme": false,
+   "registre_familier": 0
+  },
+  {
+   "etiquette": "s",
+   "theme": "scaling advice",
+   "mots": 56,
+   "phrases": 2,
+   "irregularite": 0.86,
+   "paras_1_phrase_pct": 100,
+   "details_100m": 8.9,
+   "antitheses": 0,
+   "tricolons": 2,
+   "chute_aphorisme": true,
+   "registre_familier": 0
+  }
+ ]
+}

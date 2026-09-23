@@ -1,0 +1,26 @@
+{
+  "skill_name": "render-check",
+  "evals": [
+    {
+      "id": 0,
+      "name": "contraste-sur-fond-sombre",
+      "prompt": "Voici la palette de mon site (palette.css). J'ai un bloc sombre avec un titre blanc, un paragraphe secondaire et un lien. Est-ce que c'est lisible ? Dis-moi si quelque chose ne va pas.",
+      "expected_output": "Doit MESURER les contrastes plutôt que juger à l'oeil, et trouver que --second sur --encre vaut 2,81:1 et --accent sur --encre 1,65:1, tous deux sous le seuil de 4,5:1. Devrait aussi relever que la bordure du champ (--filet sur blanc) est un contour interactif sous 3:1.",
+      "files": ["fixtures/palette.css"]
+    },
+    {
+      "id": 1,
+      "name": "accordeon-qui-coupe-sur-mobile",
+      "prompt": "J'ai fait cet accordéon de FAQ pour mes articles. Regarde si c'est bon avant que je le mette en ligne.",
+      "expected_output": "Doit RENDRE la page à une largeur de téléphone (~375 px) et découvrir que max-height: 384px coupe la réponse. Sur grand écran le défaut est invisible.",
+      "files": ["fixtures/accordeon.html"]
+    },
+    {
+      "id": 2,
+      "name": "titre-pdf-qui-deborde",
+      "prompt": "Ce script génère le rapport PDF que j'envoie à mes clients. J'ai changé le titre. Tu peux me confirmer que c'est bon ?",
+      "expected_output": "Doit EXÉCUTER le script, convertir la page en image et la regarder — et voir que le titre à 27 pt déborde de la largeur utile de la page.",
+      "files": ["fixtures/rapport.py"]
+    }
+  ]
+}
